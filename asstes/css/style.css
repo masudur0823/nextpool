@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    background-color: aqua;
+}
+
+/* footer area start */
+
+/* footer area end */
