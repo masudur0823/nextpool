@@ -11,6 +11,63 @@
     padding: 100px 0px;
 }
 
+.sec_py_medium {
+    padding: 50px 0px;
+}
+
+.w_100{
+    width: 100% !important;
+}
+
+.mt_5 {
+    margin-top: 5px;
+}
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+
+.mt_15 {
+    margin-top: 15px;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+.mt_25 {
+    margin-top: 25px;
+}
+
+.mt_30 {
+    margin-top: 30px;
+}
+
+.mb_5 {
+    margin-bottom: 5px;
+}
+
+.mb_10 {
+    margin-bottom: 10px;
+}
+
+.mb_15 {
+    margin-bottom: 15px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mb_25 {
+    margin-bottom: 25px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
 .mb_50 {
     margin-bottom: 50px;
 }
@@ -25,14 +82,95 @@
 }
 
 /* color start */
-.text_white{
+.text_white {
     color: #fff !important;
 }
 
-.text_black{
+.text_black {
     color: #000 !important;
 }
+
+.bg_black {
+    background-color: #000 !important;
+}
+
 /* color end */
+
+/* button start */
+.btn_black {
+    background: #000000;
+    border: 1px solid #FC8310;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1292px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* button end */
+
+/* tabel style start */
+.table_one{
+    border-collapse: collapse;
+}
+.table_one th {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1292px;
+    line-height: 21px;
+    color: #87868B;
+    text-align: start;
+    padding: 15px;
+}
+
+.table_one th:first-child{
+    padding-left: 0px;
+}
+
+
+.table_one td {
+    padding: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1292px;
+    line-height: 21px;
+    border-top: 1px solid #36373D;
+    position: relative;
+}
+
+.table_one td:first-child{
+    padding-left: 0px;
+}
+
+.table_one td::after{
+    content: '';
+    border-right: 1px solid #36373D;
+    height: 40%;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.table_one td:last-child::after{
+    content:none !important;
+    border-right: 1px solid #36373D;
+    height: 40%;
+    width: 0px !important;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* tabel style end */
 
 /* grid layout start*/
 .grid-4 {
@@ -66,7 +204,7 @@
     }
 
     .grid-2 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
