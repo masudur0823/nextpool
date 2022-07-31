@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-.cursor_pointer{
+.cursor_pointer {
     cursor: pointer;
 }
 
@@ -37,7 +37,7 @@
     font-weight: 500 !important;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
@@ -140,7 +140,7 @@
     color: #87868B !important;
 }
 
-.text_orange{
+.text_orange {
     color: #FC7010 !important;
 }
 
@@ -148,7 +148,7 @@
     background-color: #000 !important;
 }
 
-.bg_white{
+.bg_white {
     background-color: #fff !important;
 }
 
@@ -291,15 +291,23 @@
 /* input area end */
 
 /* pagination area start */
-.pagination_ul{
+.pagination_ul {
     list-style-type: none;
     text-align: center;
 }
 
-.pagination_ul li{
+.pagination_ul li {
     display: inline;
     margin-right: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #1B2122;
 }
+
 /* pagination area end */
 
 /* grid layout start*/
