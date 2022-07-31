@@ -288,6 +288,29 @@
     color: #A1A2A8;
 }
 
+.input_style2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    padding: 15px 20px;
+    background: #fff;
+    border: 0.807874px solid #DDE0E4;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.input_style2::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A1A2A8;
+}
+
 /* input area end */
 
 /* pagination area start */
