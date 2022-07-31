@@ -25,6 +25,22 @@
     color: #A1A2A8;
 }
 
+.text_center {
+    text-align: center;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}
+
+.fw_500 {
+    font-weight: 500 !important;
+}
+
+.relative{
+    position: relative;
+}
+
 .sec_py {
     padding: 100px 0px;
 }
@@ -90,6 +106,10 @@
     margin-bottom: 50px;
 }
 
+.px_15 {
+    padding: 0px 15px;
+}
+
 .p_15 {
     padding: 15px;
 }
@@ -120,8 +140,20 @@
     color: #87868B !important;
 }
 
+.text_orange{
+    color: #FC7010 !important;
+}
+
 .bg_black {
     background-color: #000 !important;
+}
+
+.bg_white{
+    background-color: #fff !important;
+}
+
+.bg_light_grey {
+    background: #F5F5F5 !important;
 }
 
 /* color end */
@@ -129,7 +161,7 @@
 /* button start */
 .btn_black {
     background: #000000;
-    border: 1px solid #FC8310;
+    border: 1px solid #000;
     border-radius: 5px;
     padding: 10px 20px;
     font-family: 'Poppins';
@@ -230,6 +262,45 @@
 }
 
 /* tabel style end */
+
+
+/* input area start */
+.input_style1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    padding: 15px 20px;
+    background: #F8F8F9;
+    border: 0.807874px solid #DDE0E4;
+    border-radius: 29.8913px;
+    box-sizing: border-box;
+}
+
+.input_style1::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A1A2A8;
+}
+
+/* input area end */
+
+/* pagination area start */
+.pagination_ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.pagination_ul li{
+    display: inline;
+    margin-right: 20px;
+}
+/* pagination area end */
 
 /* grid layout start*/
 .grid-4 {
