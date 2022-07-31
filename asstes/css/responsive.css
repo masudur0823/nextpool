@@ -52,6 +52,20 @@
         position: relative;
         padding: 30px 0px;
     }
+
+    #recently_minded_table_div .table_one{
+        width: 700px !important;
+    }
+
+    .Recently_mined_btn_blue{
+        position: sticky;
+        left: 50%;
+    }
+
+    .home_table_overlay{
+        width: 700px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
