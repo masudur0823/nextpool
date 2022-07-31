@@ -12,7 +12,16 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 28px;
+    color: #A1A2A8;
+}
+
+.para_two {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
     color: #A1A2A8;
 }
 
@@ -85,7 +94,11 @@
     padding: 15px;
 }
 
-.pt_100{
+.p_20 {
+    padding: 20px;
+}
+
+.pt_100 {
     padding-top: 100px;
 }
 
@@ -101,6 +114,10 @@
 
 .text_black {
     color: #000 !important;
+}
+
+.text_grey {
+    color: #87868B !important;
 }
 
 .bg_black {
@@ -136,6 +153,21 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.btn_white {
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1292px;
+    line-height: 21px;
+    color: #000;
+    cursor: pointer;
+    border: 0;
+}
+
 
 /* button end */
 

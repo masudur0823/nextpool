@@ -1,3 +1,13 @@
+@media only screen and (max-width: 1200px) {
+    .footer_grid {
+        grid-template-columns: 4fr 4fr 2fr 2fr;
+    }
+
+    footer br{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .h_sec2_main p{
         font-size: 12px;
@@ -22,6 +32,19 @@
 
     .rtm_child2 h1 {
         font-size: 40px;
+    }
+
+    .dash_s1_flex_1{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer_grid {
+        grid-template-columns: 6fr 6fr;
+    }
+
+    .dash_table{
+        width: 718px !important;
     }
 }
 
@@ -64,6 +87,10 @@
 
     .home_table_overlay{
         width: 700px;
+    }
+
+    .cartoon-man-img{
+        display: none;
     }
 
 }
@@ -115,5 +142,43 @@
 
     .m-none {
         display: none;
+    }
+
+    .dash_s1_flex_2{
+        flex-direction: column;
+    }
+
+    .dash_s1_flex_2 div {
+        padding: 20px 0px;
+    }
+
+    .dash_s1_flex_2 div::after {
+        content: none;
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 1px;
+        height: 90%;
+        background: #36373D;
+    }
+
+    .dash_s1_flex_2 div{
+        border-bottom: 1px solid #36373D;
+    }
+
+    .footer_grid {
+        grid-template-columns: 12fr;
+    }
+
+    .hmS1_container{
+        width: 100%;
+    }
+
+    .hmS1{
+        border-radius: 0px;
+    }
+    .title_one {
+        line-height: 32px;
     }
 }

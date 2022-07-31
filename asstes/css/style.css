@@ -26,6 +26,7 @@ header {
 .footer_grid {
     display: grid;
     grid-template-columns: 5fr 3fr 2fr 2fr;
+    grid-gap: 20px;
 }
 
 footer p {
@@ -302,15 +303,16 @@ footer p {
 .dash_s1_flex_1 {
     display: flex;
     justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid #36373D;
 }
-
 
 .dash_s1_flex_2 {
     display: flex;
 }
 
 .dash_s1_flex_2 div {
-    padding: 20px 60px;
+    padding: 0px 60px;
     position: relative;
 }
 
@@ -325,7 +327,7 @@ footer p {
     top: 50%;
     transform: translateY(-50%);
     width: 1px;
-    height: 70%;
+    height: 90%;
     background: #36373D;
 }
 
@@ -351,8 +353,214 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 12px 40px;
+    position: relative;
+    text-align: center;
+}
+
+.dash_s1_flex_3_child:nth-of-type(1)::before {
+    content: url(../images/icons/active.svg);
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dash_s1_flex_3_child:nth-of-type(2)::before {
+    content: url(../images/icons/inactive.svg);
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dash_s1_grid {
+    padding: 30px 0px 50px;
+}
+
+.dash_grid_child {
+    background: #222127;
+    border-radius: 4px;
+    padding: 20px;
+    position: relative;
+}
+
+.dash_grid_child:nth-of-type(1)::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 80%;
+    height: 3px;
+    background: #85FFB6;
+}
+
+.dash_grid_child:nth-of-type(2)::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 80%;
+    height: 3px;
+    background: #FFBD5A;
+}
+
+.dash_grid_child:nth-of-type(3)::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 80%;
+    height: 3px;
+    background: #FC7010;
+}
+
+.dash_grid_number {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.6177px;
+    line-height: 28px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.dash_grid_number span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #87868B;
+}
+
+.dash_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+    color: #1B2122;
+}
+
+.dash_workers {
+    width: 95%;
+    margin: 0 auto;
+    background: #000000;
+    border-radius: 20px;
+}
+
+.dash_search_main {
+    position: relative;
+    width: 25%;
+}
+
+.dash_search_main input {
+    background: #151718;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    width: 100%;
+}
+
+.dash_w_first {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.search_orange {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.dash_table th::before {
+    content: url(../images/icons/up_down_arrow.svg);
+    position: relative;
+    left: -18px;
+    top: 3px;
+}
+
+.dash_table th:first-child:before {
+    content: none;
+}
+
+.dash_table_div {
+    overflow-x: scroll;
 }
 
 /* --------------------------------------------------- */
 /* Dashboard page end */
+
+
+
+/* How To Mine Crypto page end */
+/* --------------------------------------------------- */
+.hmS1 {
+    background: #AF91DB;
+    border-radius: 20px;
+}
+
+.hmS1_g_child1 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cartoon-man-img {
+    height: 100%;
+    width: 100%;
+}
+
+.hm_blog_top_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hm_blog {
+    background: #F5F5F5;
+}
+
+.hm_blog_btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #1C8AC7;
+    text-decoration: none;
+
+}
+
+.hm_blog_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1B2122;
+}
+
+.hm_blog_card_body {
+    margin: 15px;
+}
+
+.hm_blog_child {
+    border: 1px solid #DDE0E4;
+    border-radius: 12px;
+    background-color: #fff;
+}
+/* --------------------------------------------------- */
+/* How To Mine Crypto page end */
