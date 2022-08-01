@@ -186,6 +186,21 @@
         bottom: 0;
         display: block;
     }
+    .hc_top{
+        width: 100%;
+    }
+
+    .dash_w_first {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dash_search_main {
+        position: relative;
+        width: 90%;
+    }
 
 }
 

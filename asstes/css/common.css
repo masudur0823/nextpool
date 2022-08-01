@@ -223,6 +223,20 @@
     border: 0;
 }
 
+.btn_transparent{
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1292px;
+    line-height: 21px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #FC7010;
+}
+
 
 /* button end */
 

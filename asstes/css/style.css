@@ -497,7 +497,7 @@ footer p {
 }
 
 .dash_table_div {
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 /* --------------------------------------------------- */
@@ -802,14 +802,15 @@ footer p {
     height: 4px;
 }
 
-.api_middle_div{
+.api_middle_div {
     background-color: #222127;
     margin-top: 40px;
     padding: 40px;
     border-radius: 20px;
+    position: relative;
 }
 
-.api_middle_div p{
+.api_middle_div p {
     word-break: break-all;
 }
 
@@ -820,19 +821,17 @@ footer p {
     right: 0;
 }
 
-.api_middle_div div:nth-of-type(2){
+.api_middle_div div:nth-of-type(2) {
     position: relative;
 }
 
-.api_table_main{
+.api_table_main {
     background-color: #000;
     padding: 150px 0px 80px;
     margin-top: -80px;
-    position: relative;
-    z-index: -1;
 }
 
-.api_table_main td{
+.api_table_main td {
     text-align: start;
 }
 
@@ -858,28 +857,29 @@ footer p {
     justify-content: center;
     color: #fff;
     gap: 8px;
+    cursor: pointer;
 }
 
-.cc_search_main{
+.cc_search_main {
     width: 40%;
     margin: 30px auto;
 }
 
-.cc_CryptoCoin{
+.cc_CryptoCoin {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.cc_CryptoCoin1{
+.cc_CryptoCoin1 {
     left: 0px;
 }
 
-.cc_CryptoCoin2{
+.cc_CryptoCoin2 {
     right: 0px;
 }
 
-.cc_sec2{
+.cc_sec2 {
     background-color: #000;
 }
 
@@ -897,11 +897,16 @@ footer p {
     border-right: 30px solid transparent;
 }
 
-.cc_table td:first-child{
+.cc_table td:first-child {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
+.hc_top{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
 /* --------------------------------------------------- */
 /* Coin Comparison page end */
