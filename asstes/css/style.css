@@ -903,10 +903,42 @@ footer p {
     gap: 10px;
 }
 
-.hc_top{
+.hc_top {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+}
+
+.hc_tdm {
+    background: #fc6e102c;
+    border-radius: 25px;
+    color: #FC7010;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hc_td_btn{
+    background: transparent;
+    border-radius: 5px;
+    padding: 5px 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1292px;
+    line-height: 21px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #36373D;
+}
+
+.hc_table_div{
+    overflow-x: auto;
 }
 /* --------------------------------------------------- */
 /* Coin Comparison page end */
