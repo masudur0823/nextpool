@@ -25,6 +25,15 @@
     color: #A1A2A8;
 }
 
+.para_three{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    color: #A1A2A8;
+}
+
 .text_center {
     text-align: center;
 }
@@ -196,6 +205,20 @@
     font-size: 14.1292px;
     line-height: 21px;
     color: #000;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn_orange {
+    background: #FC7010;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1292px;
+    line-height: 21px;
+    color: #fff;
     cursor: pointer;
     border: 0;
 }

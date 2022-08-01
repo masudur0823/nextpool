@@ -80,6 +80,17 @@
     .blogDetails{
         grid-template-columns: 1fr;
     }
+    .CryptoCoin {
+        width: 96%;
+    }
+
+    .cc_CryptoCoin{
+        display: none;
+    }
+    .cc_search_main {
+        width: 70%;
+        margin: 30px auto;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -158,6 +169,22 @@
 
     .hm_7_grid_child2{
         order: 1;
+    }
+
+    .api_middle_div div:nth-of-type(1){
+        order: 2;
+    }
+    .api_middle_div div:nth-of-type(2){
+        order: 1;
+    }
+
+    .CryptoCoin {
+        margin: 0 auto;
+        width: 75%;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: block;
     }
 
 }
@@ -263,5 +290,8 @@
         margin-left: 0px;
         width: 100%;
         box-sizing: border-box;
+    }
+    .cc_search_main {
+        width: 100%;
     }
 }
