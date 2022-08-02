@@ -77,19 +77,25 @@
         width: 90%;
     }
 
-    .blogDetails{
+    .blogDetails {
         grid-template-columns: 1fr;
     }
+
     .CryptoCoin {
         width: 96%;
     }
 
-    .cc_CryptoCoin{
+    .cc_CryptoCoin {
         display: none;
     }
+
     .cc_search_main {
         width: 70%;
         margin: 30px auto;
+    }
+
+    .logo {
+        width: 150px;
     }
 }
 
@@ -163,18 +169,19 @@
         width: 95%;
     }
 
-    .hm_7_grid_child1{
+    .hm_7_grid_child1 {
         order: 2;
     }
 
-    .hm_7_grid_child2{
+    .hm_7_grid_child2 {
         order: 1;
     }
 
-    .api_middle_div div:nth-of-type(1){
+    .api_middle_div div:nth-of-type(1) {
         order: 2;
     }
-    .api_middle_div div:nth-of-type(2){
+
+    .api_middle_div div:nth-of-type(2) {
         order: 1;
     }
 
@@ -186,7 +193,8 @@
         bottom: 0;
         display: block;
     }
-    .hc_top{
+
+    .hc_top {
         width: 100%;
     }
 
@@ -202,7 +210,7 @@
         width: 90%;
     }
 
-    .mr_first_bg{
+    .mr_first_bg {
         width: 90%;
         margin: 0 auto;
     }
@@ -301,7 +309,7 @@
         line-height: 32px;
     }
 
-    .blog_s_main{
+    .blog_s_main {
         width: 100%;
     }
 
@@ -311,6 +319,7 @@
         width: 100%;
         box-sizing: border-box;
     }
+
     .cc_search_main {
         width: 100%;
     }
@@ -319,18 +328,25 @@
         width: 50px;
         height: 50px;
     }
+
     .mr_bg_area_svg {
         width: 20px;
         height: 28px;
         box-shadow: 0px 0px 44px 11px #fc8f10;
     }
 
-    .mr_bg_area_title{
+    .mr_bg_area_title {
         gap: 25px;
     }
 
     .mr_bg_area_div {
         padding: 26px;
         border-radius: 10px;
+    }
+
+    .hum_main_child {
+        position: absolute;
+        right: 42px;
+        top: 80px;
     }
 }

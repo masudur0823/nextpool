@@ -1,5 +1,40 @@
+// menu function start
+function humberger(x) {
+    const hc = document.getElementById("hum_main_child");
+    const img = document.getElementsByClassName("gif_img");
+
+
+
+    if (window.matchMedia("(max-width: 992px)").matches) { // If media query matches
+        if (hc.style.gap == '0px') {
+            hc.style.gap = '10px';
+            for (i = 0; i <= img.length; i++) {
+                img[i].style.width = '30px'
+            }
+        } else {
+            hc.style.gap = '0px';
+            for (i = 0; i <= img.length; i++) {
+                img[i].style.width = '0px'
+            }
+        }
+    } else {
+        if (hc.style.gap == '0px') {
+            hc.style.gap = '30px';
+            for (i = 0; i <= img.length; i++) {
+                img[i].style.width = '50px'
+            }
+        } else {
+            hc.style.gap = '0px';
+            for (i = 0; i <= img.length; i++) {
+                img[i].style.width = '0px'
+            }
+        }
+    }
+}
+// menu function end
+
 // viewAll function start
-function viewAll(){
+function viewAll() {
     const ov = document.getElementById('home_table_overlay');
     const va = document.getElementById('view_all');
     const vl = document.getElementById('view_less');
@@ -9,9 +44,9 @@ function viewAll(){
     vl.style.display = 'block'
     div.style.height = 'auto'
     div.style.overflowY = 'initial'
-} 
+}
 
-function viewLess(){
+function viewLess() {
     const ov = document.getElementById('home_table_overlay');
     const va = document.getElementById('view_all');
     const vl = document.getElementById('view_less');
@@ -45,6 +80,6 @@ for (i = 0; i < faq.length; i++) {
 }
 // faq function end
 
-// wave function start
+// menu function start
 
-// wave function end
+// menu function end
