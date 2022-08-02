@@ -44,3 +44,7 @@ for (i = 0; i < faq.length; i++) {
     });
 }
 // faq function end
+
+// wave function start
+
+// wave function end

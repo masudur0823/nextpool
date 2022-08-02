@@ -7,14 +7,50 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header {
-    text-align: center;
-    background-color: aqua;
+header{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.header_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100px;
+}
+
+.gif_img {
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(16, 16, 16, 0.15);
+}
+
+.hum_main{
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 30px;
 }
+
+.hum_main_child{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.gif_img_color{
+    display: none;
+}
+.hum_main_child_a:hover .gif_img_grey{
+    display: none;
+}
+.hum_main_child_a:hover .gif_img_color{
+    display: block;
+}
+
+.humberger_icon{
+    cursor: pointer;
+}
+
 
 /* footer area start */
 
@@ -67,6 +103,8 @@ footer p {
 }
 
 /* footer area end */
+
+
 
 /* ready to mine area start */
 .ready_to_mine {
@@ -252,6 +290,19 @@ footer p {
 .recently_minded_table_div::-webkit-scrollbar {
     width: 0px;
     height: 0px;
+}
+
+.home_s1{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/home_sec1.svg);
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-wave {
+    width: 100vw;
+    height: 100vh;
 }
 
 /* --------------------------------------------------- */
@@ -923,7 +974,7 @@ footer p {
     text-transform: uppercase;
 }
 
-.hc_td_btn{
+.hc_td_btn {
     background: transparent;
     border-radius: 5px;
     padding: 5px 40px;
@@ -937,15 +988,132 @@ footer p {
     border: 1px solid #36373D;
 }
 
-.hc_table_div{
+.hc_table_div {
     overflow-x: auto;
 }
+
 /* --------------------------------------------------- */
 /* Coin Comparison page end */
 
 
 /* How To Build Mining Rig page start */
 /* --------------------------------------------------- */
+.mr_first_bg {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mr_first_div {
+    background-image: url(../images/mining_rig_bg.png);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.mr_s2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mr_s2_child {
+    background: #FFFFFF;
+    border: 1px solid #DDE0E4;
+    border-radius: 10px;
+    width: 220px;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+
+.mr_icon_div {
+    width: 40px;
+    height: 40px;
+    background: #F8F8F9;
+    border-radius: 7.11111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mr_s2_child:hover .mr_icon_div{
+    width: 40px;
+    height: 40px;
+    background: #FC8F10;
+    border-radius: 7.11111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 44px 11px #fc8f10;
+}
+
+.mr_s2_child:hover path{
+    fill: #fff;
+}
+
+.mr_icon_div_active {
+    width: 40px;
+    height: 40px;
+    background: #FC8F10;
+    border-radius: 7.11111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 44px 11px #fc8f10;
+}
+
+.mr_icon_div_active path {
+    fill: #fff;
+}
+
+.mr_bg_area{
+    padding-bottom: 50px;
+}
+
+.mr_bg_area_title{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mr_bg_area_title img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 44px 11px #fc8f10;
+}
+
+.mr_bg_area_svg_div{
+    width: 80px;
+    height: 80px;
+    background: #FC8F10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.mr_bg_area_svg{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 0px 44px 11px #fc8f10;
+}
+
+.mr_bg_area_svg path{
+    fill: #fff;
+}
+.mr_bg_area_div{
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.mr_bg_area_div p{
+    margin-top: 50px;
+}
+
 
 /* --------------------------------------------------- */
 /* How To Build Mining Rig page end */

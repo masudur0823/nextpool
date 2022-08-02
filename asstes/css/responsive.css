@@ -202,6 +202,11 @@
         width: 90%;
     }
 
+    .mr_first_bg{
+        width: 90%;
+        margin: 0 auto;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -308,5 +313,24 @@
     }
     .cc_search_main {
         width: 100%;
+    }
+
+    .mr_bg_area_svg_div {
+        width: 50px;
+        height: 50px;
+    }
+    .mr_bg_area_svg {
+        width: 20px;
+        height: 28px;
+        box-shadow: 0px 0px 44px 11px #fc8f10;
+    }
+
+    .mr_bg_area_title{
+        gap: 25px;
+    }
+
+    .mr_bg_area_div {
+        padding: 26px;
+        border-radius: 10px;
     }
 }
