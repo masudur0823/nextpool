@@ -215,6 +215,12 @@
         margin: 0 auto;
     }
 
+    .api_top_nav {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {

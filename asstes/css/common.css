@@ -131,6 +131,13 @@
     padding-top: 100px;
 }
 
+.pt_150 {
+    padding-top: 150px;
+}
+
+.pt_200 {
+    padding-top: 200px;
+}
 .card_border {
     border: 1px solid #DDE0E4;
     border-radius: 5px;
