@@ -32,6 +32,19 @@
 // }
 // menu function end
 
+
+// menu function start
+function humberger() {
+    const nav = document.getElementById("nav");
+
+    if (nav.style.display == 'none') {
+        nav.style.display = 'block'
+    }else{
+        nav.style.display = 'none'
+    }
+}
+// menu function end
+
 // viewAll function start
 function viewAll() {
     const ov = document.getElementById('home_table_overlay');
