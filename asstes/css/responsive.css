@@ -97,6 +97,14 @@
     .logo {
         width: 150px;
     }
+
+    .hum_main_child {
+        grid-gap: 15px;
+    }
+
+    .hum_main_child img{
+        width: 30px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
