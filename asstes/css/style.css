@@ -21,7 +21,7 @@ header{
 }
 
 .gif_img {
-    width: 0px;
+    width: 50px;
     border-radius: 10px;
     box-shadow: 0px 10px 10px rgba(16, 16, 16, 0.15);
     transition: all 0.5s;
@@ -37,6 +37,7 @@ header{
     display: flex;
     align-items: center;
     transition: all 0.5s;
+    gap: 30px;
 }
 
 .gif_img_color{

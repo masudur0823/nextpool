@@ -1,36 +1,35 @@
 // menu function start
-function humberger(x) {
-    const hc = document.getElementById("hum_main_child");
-    const img = document.getElementsByClassName("gif_img");
+// function humberger(x) {
+//     const hc = document.getElementById("hum_main_child");
+//     const img = document.getElementsByClassName("gif_img");
 
 
-
-    if (window.matchMedia("(max-width: 992px)").matches) { // If media query matches
-        if (hc.style.gap == '0px') {
-            hc.style.gap = '10px';
-            for (i = 0; i <= img.length; i++) {
-                img[i].style.width = '30px'
-            }
-        } else {
-            hc.style.gap = '0px';
-            for (i = 0; i <= img.length; i++) {
-                img[i].style.width = '0px'
-            }
-        }
-    } else {
-        if (hc.style.gap == '0px') {
-            hc.style.gap = '30px';
-            for (i = 0; i <= img.length; i++) {
-                img[i].style.width = '50px'
-            }
-        } else {
-            hc.style.gap = '0px';
-            for (i = 0; i <= img.length; i++) {
-                img[i].style.width = '0px'
-            }
-        }
-    }
-}
+//     if (window.matchMedia("(max-width: 992px)").matches) { // If media query matches
+//         if (hc.style.gap == '0px') {
+//             hc.style.gap = '10px';
+//             for (i = 0; i <= img.length; i++) {
+//                 img[i].style.width = '30px'
+//             }
+//         } else {
+//             hc.style.gap = '0px';
+//             for (i = 0; i <= img.length; i++) {
+//                 img[i].style.width = '0px'
+//             }
+//         }
+//     } else {
+//         if (hc.style.gap == '0px') {
+//             hc.style.gap = '30px';
+//             for (i = 0; i <= img.length; i++) {
+//                 img[i].style.width = '50px'
+//             }
+//         } else {
+//             hc.style.gap = '0px';
+//             for (i = 0; i <= img.length; i++) {
+//                 img[i].style.width = '0px'
+//             }
+//         }
+//     }
+// }
 // menu function end
 
 // viewAll function start
