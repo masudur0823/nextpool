@@ -39,11 +39,35 @@ function humberger() {
 
     if (nav.style.display == 'none') {
         nav.style.display = 'block'
-    }else{
+    } else {
         nav.style.display = 'none'
     }
 }
+
+function Mhumberger() {
+    const nav = document.getElementById("nav");
+    const hum = document.getElementById("hum_main_child");
+
+    if (nav.style.display == 'none') {
+        nav.style.display = 'block'
+        hum.style.display = 'flex'
+    } else {
+        nav.style.display = 'none'
+        hum.style.display = 'none'
+    }
+}
 // menu function end
+
+// normal menu function start
+function Nhumberger() {
+    const nav = document.getElementById("normal_nav");
+    if (nav.style.display == 'none') {
+        nav.style.display = 'block'
+    } else {
+        nav.style.display = 'none'
+    }
+}
+// normal menu function end
 
 // viewAll function start
 function viewAll() {
@@ -77,11 +101,8 @@ var i;
 
 for (i = 0; i < faq.length; i++) {
     faq[i].addEventListener("click", function () {
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
         this.classList.toggle("active");
 
-        /* Toggle between hiding and showing the active panel */
         var body = this.nextElementSibling;
         if (body.style.display === "block") {
             body.style.display = "none";

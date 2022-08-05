@@ -360,15 +360,8 @@
 
     .hum_main_child {
         position: absolute;
-        right: 42px;
-        top: 80px;
+        right: 8vw;
+        top: 84px;
         z-index: 15;
-    }
-
-    nav ul {
-        top: 36px;
-        padding: 20px;
-        padding-top: 50px;
-        padding-bottom: 50px;
     }
 }
