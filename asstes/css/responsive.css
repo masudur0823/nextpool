@@ -407,3 +407,15 @@
         z-index: 15;
     }
 }
+
+@media only screen and (max-width: 374px) {
+    .mr_s2_child {
+        width: 40px;
+    }
+    .mr_s2 {
+        gap: 12px;
+    }
+    .mr_s2_child p {
+        font-size: 10px;
+    }
+}
