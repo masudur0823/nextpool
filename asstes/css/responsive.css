@@ -1,8 +1,9 @@
 @media only screen and (min-width: 1200px) {
-    #normal_nav{
+    #normal_nav {
         display: block !important;
     }
 }
+
 @media only screen and (max-width: 1200px) {
     .footer_grid {
         grid-template-columns: 4fr 4fr 2fr 2fr;
@@ -22,6 +23,10 @@
 
     .newToMining_img {
         width: 598px;
+    }
+
+    .mr_s2_child {
+        width: 175px;
     }
 }
 
@@ -235,12 +240,35 @@
         align-items: center;
     }
 
-    .Dashboard_pc{
+    .Dashboard_pc {
         display: none;
     }
 
-    .Dashboard_mobile{
+    .Dashboard_mobile {
         display: block;
+    }
+
+    .mr_s2_child {
+        width: 56px;
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 20px;
+    }
+
+    .mr_icon_div_active {
+        width: 36px;
+        height: 36px;
+        box-shadow: 0px 0px 26px 5px #fc8f10;
+    }
+
+    .mr_s2_child p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .mr_s2_child:hover .mr_icon_div {
+        box-shadow: 0px 0px 26px 5px #fc8f10;
     }
 
 }
