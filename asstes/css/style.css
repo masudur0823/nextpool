@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
     position: absolute;
     left: 0;
     width: 100%;
@@ -18,6 +18,30 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+}
+
+nav a {
+    display: inline-block;
+    position: relative;
+}
+
+nav a:after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    background: #000;
+    border-radius: 5px;
+    height: 3px;
+    width: 100%;
+    transform: scaleX(0);
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+nav a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 
@@ -270,12 +294,13 @@ footer p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .grid-wave {
     width: 100vw;
     height: 100vh;
 }
 
-.arrowIcon{
+.arrowIcon {
     margin-top: 80px;
     width: 100%;
 }
@@ -500,7 +525,7 @@ footer p {
 .dash_w_first {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .search_orange {
@@ -524,6 +549,7 @@ footer p {
 
 .dash_table_div {
     overflow-x: auto;
+    margin-top: 20px;
 }
 
 /* --------------------------------------------------- */
@@ -657,6 +683,12 @@ footer p {
     margin-top: -73px;
 }
 
+.Dashboard_mobile {
+    display: none;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
 /* --------------------------------------------------- */
 /* How To Mine Crypto page end */
 
@@ -673,6 +705,7 @@ footer p {
     top: 50%;
     position: absolute;
     background: #FC7010;
+    cursor: pointer;
 }
 
 .blog_s_main {
@@ -804,7 +837,9 @@ footer p {
     display: flex;
 }
 
-.api_top_nav p {
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
     margin-right: 30px;
     font-family: 'Poppins';
     font-style: normal;
@@ -812,20 +847,27 @@ footer p {
     font-size: 14px;
     line-height: 12px;
     color: #000000;
-    position: relative;
     cursor: pointer;
 }
 
-.api_top_nav p:hover::after {
+.hover-underline-animation:after {
     content: '';
     position: absolute;
-    left: 50%;
     bottom: -15px;
-    transform: translateX(-50%);
     background: #FC7010;
     border-radius: 5px;
-    width: 50%;
     height: 4px;
+    width: 100%;
+    transform: scaleX(0);
+    bottom: -15px;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .api_middle_div {
@@ -923,6 +965,10 @@ footer p {
     border-right: 30px solid transparent;
 }
 
+.cc_table_div {
+    overflow-x: auto;
+}
+
 .cc_table td:first-child {
     display: flex;
     align-items: center;
@@ -1016,7 +1062,7 @@ footer p {
     align-items: center;
 }
 
-.mr_s2_child:hover .mr_icon_div{
+.mr_s2_child:hover .mr_icon_div {
     width: 40px;
     height: 40px;
     background: #FC8F10;
@@ -1027,7 +1073,7 @@ footer p {
     box-shadow: 0px 0px 44px 11px #fc8f10;
 }
 
-.mr_s2_child:hover path{
+.mr_s2_child:hover path {
     fill: #fff;
 }
 
@@ -1046,22 +1092,22 @@ footer p {
     fill: #fff;
 }
 
-.mr_bg_area{
+.mr_bg_area {
     padding-bottom: 50px;
 }
 
-.mr_bg_area_title{
+.mr_bg_area_title {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
-.mr_bg_area_title img{
+.mr_bg_area_title img {
     border-radius: 20px;
     box-shadow: 0px 0px 44px 11px #fc8f10;
 }
 
-.mr_bg_area_svg_div{
+.mr_bg_area_svg_div {
     width: 80px;
     height: 80px;
     background: #FC8F10;
@@ -1071,21 +1117,22 @@ footer p {
     border-radius: 15px;
 }
 
-.mr_bg_area_svg{
+.mr_bg_area_svg {
     width: 40px;
     height: 40px;
     box-shadow: 0px 0px 44px 11px #fc8f10;
 }
 
-.mr_bg_area_svg path{
+.mr_bg_area_svg path {
     fill: #fff;
 }
-.mr_bg_area_div{
+
+.mr_bg_area_div {
     padding: 50px;
     border-radius: 10px;
 }
 
-.mr_bg_area_div p{
+.mr_bg_area_div p {
     margin-top: 50px;
 }
 

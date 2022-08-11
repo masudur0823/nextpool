@@ -44,6 +44,8 @@ function humberger() {
     }
 }
 
+
+
 function Mhumberger() {
     const nav = document.getElementById("nav");
     const hum = document.getElementById("hum_main_child");
@@ -51,11 +53,21 @@ function Mhumberger() {
     if (nav.style.display == 'none') {
         nav.style.display = 'block'
         hum.style.display = 'flex'
+        
     } else {
         nav.style.display = 'none'
         hum.style.display = 'none'
     }
 }
+// const nav_anchor = document.querySelectorAll("nav a");
+// console.log(nav_anchor)
+// const nav = document.getElementById("normal_nav");
+// for (let i = 0; i < nav_anchor.length; i++) {
+//     nav_anchor[i].addEventListener("load",function(){
+//         nav.style.display = "none"
+//     })
+//   }
+
 // menu function end
 
 // normal menu function start
