@@ -51,7 +51,7 @@ function Mhumberger() {
     const hum = document.getElementById("hum_main_child");
 
     if (nav.style.display == 'none') {
-        nav.style.display = 'block'
+        nav.style.display = 'flex'
         hum.style.display = 'flex'
         
     } else {
@@ -73,11 +73,12 @@ function Mhumberger() {
 // normal menu function start
 function Nhumberger() {
     const nav = document.getElementById("normal_nav");
-    if (nav.style.display == 'none') {
-        nav.style.display = 'block'
-    } else {
-        nav.style.display = 'none'
-    }
+        nav.style.top = '0px'
+}
+
+function closeIcon() {
+    const nav = document.getElementById("normal_nav");
+    nav.style.top = '-10000px'
 }
 // normal menu function end
 

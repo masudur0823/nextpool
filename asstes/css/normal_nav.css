@@ -1,6 +1,4 @@
-
-
-.humberger_icon{
+.humberger_icon {
     display: none;
 }
 
@@ -25,17 +23,27 @@ nav a {
 }
 
 
-nav ul{
+nav ul {
     display: flex;
 }
 
-nav li{
+nav li {
     display: flex;
 }
 
-.dark a{
+.light a {
+    color: #000;
+}
+
+.dark a {
     color: #fff;
 }
+
+.close {
+    display: none;
+}
+
+
 
 @media only screen and (min-width: 1400px) {
     nav a {
@@ -44,49 +52,90 @@ nav li{
 
 }
 
+@media only screen and (min-width: 1200px) {
+    .mobile_logo{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
+    .light a {
+        color: #fff;
+    }
+    .close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        font-size: 50px;
+        color: #fff;
+        font-weight: 300;
+        transition: all 0.2s ease;
+    }
+
+    .close:hover {
+        color: #fc7010;
+    }
+
     nav a {
         font-size: 16px;
     }
 
+    .mobile_logo {
+        display: block;
+        text-align: center;
+    }
+
+    #normal_nav {
+        display: flex;
+        position: fixed;
+        left: 0;
+        top: -10000px;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        z-index: 12;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.95);
+        transition: top 0.3s;
+    }
+
     nav ul {
         list-style-type: none;
-        position: absolute;
         min-width: 250px;
-        background: #fff;
-        right: 0;
-        top: 57px;
+        background: transparent;
         padding: 20px;
         z-index: 12;
         border-radius: 15px;
-        box-shadow: 0px 10px 10px rgb(16 16 16 / 15%);
         flex-direction: column;
+        text-align: center;
     }
 
     nav li {
         margin-top: 10px;
         display: block;
     }
-    
+
     nav a {
         text-decoration: none;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
-        color: #000;
+        color: #fff;
     }
 
-    .humberger_icon{
+    .humberger_icon {
         display: block;
     }
 
-    .dark a{
-        color: #000;
+    .dark a {
+        color: #fff;
     }
-    
 
-    
+
+
 }
 
 @media only screen and (max-width: 1200px) {}

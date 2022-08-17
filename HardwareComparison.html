@@ -14,7 +14,7 @@
 </head>
 
 <body>
-        <!-- header area start -->
+         <!-- header area start -->
     <header>
         <div class="container">
             <div class="header_div">
@@ -23,8 +23,10 @@
                     <div class="relative">
                         <img src="/asstes/images/icons/humberger.svg" class="humberger_icon" onclick="Nhumberger()"
                             alt="">
-                        <nav id="normal_nav" style="display: none;">
-                            <ul>
+                        <nav id="normal_nav">
+                            <div>
+                                <a href="/" class="mobile_logo"><img src="/asstes/images/logo_white.svg" class="logo" alt=""></a>
+                            <ul class="light">
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/Dashboard.html">Dashboard</a></li>
                                 <li><a href="/HowToMineCrypto.html">How To Mine Crypto</a></li>
@@ -35,6 +37,8 @@
                                 <li><a href="/HardwareComparison.html">Hardware Comparison</a></li>
                                 <li><a href="/HowToBuildMiningRig.html">How To Build Mining Rig</a></li>
                             </ul>
+                            </div>
+                            <span class="close" id="close" onclick="closeIcon()">×</span>
                         </nav>
                     </div>
                 </div>
